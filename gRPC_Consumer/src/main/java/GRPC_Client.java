@@ -6,6 +6,7 @@ import io.grpc.stub.StreamObserver;
 
 import java.util.Scanner;
 import java.util.logging.Logger;
+import java.awt.color.*;
 
 public class GRPC_Client {
     private static final Logger logger = Logger.getLogger(GRPC_Client.class.getName());
@@ -57,7 +58,7 @@ public class GRPC_Client {
         System.out.println("____________4. Update User Profile____________");
         System.out.println("____________5. See Profile____________");
         System.out.println("____________6. Stop Program____________");
-        System.out.print("Enter your choice: >> ");
+        System.out.print("Enter your choice: >> the way you like  ");
     }
 
     private static void registerUser(userGrpc.userBlockingStub userBlockingStub, Scanner scanner) {
